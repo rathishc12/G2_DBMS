@@ -67,10 +67,10 @@ truncate table student;
 alter table student rename to mystudent;
 
 ### OUTPUT:
+![image](https://github.com/rathishc12/G2_DBMS/assets/120539398/075bf3d6-31a4-4b6e-9a57-9a264f6a9c7d)
 
-
-![image](https://github.com/rathishc12/G2_DBMS/assets/120539398/b536aa5d-7169-4094-9bdf-6037a38eac31)
-
+### RESULT:
+hence successfully created a student database and execute DDL queries using SQL.
 
 
 
