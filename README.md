@@ -23,54 +23,37 @@ RENAME: This is used to rename an object existing in the database.
 
 ### SQL QUERY: 
 
-create table student(rollno int,name char(20),age int,addr varchar(20),phoneno int);
+create table student1(rollno int,name char(20),age int,addr varchar(20),phoneno int);
 
 ### OUTPUT:
-
-![image](https://github.com/rathishc12/G2_DBMS/assets/120539398/781b105c-459f-46cc-8d7d-db198b48de70)
+![273106868-8c30bf4f-04a8-4969-8bab-b0a731fcf67d](https://github.com/rathishc12/G2_DBMS/assets/120539398/3c10c896-71a1-44eb-a229-543b1bcfb194)
 
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-alter table student add department char(30);
+alter table student1 add department char(30);
 ### OUTPUT:
-
-![image](https://github.com/rathishc12/G2_DBMS/assets/120539398/f2353c71-67fe-4d36-8d32-45242052d03f)
+![273106972-8c46886c-34f0-4c28-8a89-09b10bf3a545](https://github.com/rathishc12/G2_DBMS/assets/120539398/a7717f96-5e88-4687-a2a2-86dad494c239)
 
 
 ### 3) Drop the student table
- 
 ### SQL QUERY: 
-drop table student;
-
+drop table student2;
 ### OUTPUT:
-
-![image](https://github.com/rathishc12/G2_DBMS/assets/120539398/cdfe7155-760a-48a9-a540-40f5364fdd32)
-
+![image](https://github.com/rathishc12/G2_DBMS/assets/120539398/4a1b4c4d-f5ae-4c61-b5b1-9db0d234adf6)
 
 
 ### 4) Delete the student table using truncate keyword
-
 ### SQL QUERY: 
-truncate table student;
-
+truncate table student1;
 ### OUTPUT:
-
-![image](https://github.com/rathishc12/G2_DBMS/assets/120539398/af6c6bbf-1b64-4c42-8365-0d0e42db1a84)
-
+![273107088-5f60da4d-0f7a-4056-9321-a9a53b56635f](https://github.com/rathishc12/G2_DBMS/assets/120539398/2917d7dd-13b8-4a44-9561-d2bf09207b49)
 
 
 ### 5) Rename the student table to mystudent
-
 ### SQL QUERY: 
-alter table student rename to mystudent;
-
+alter table student rename to mystudent2;
 ### OUTPUT:
-![image](https://github.com/rathishc12/G2_DBMS/assets/120539398/075bf3d6-31a4-4b6e-9a57-9a264f6a9c7d)
-
-### RESULT:
-hence successfully created a student database and execute DDL queries using SQL.
-
-
+![273107335-c9836478-e202-401e-8f14-fd1c4eaba589](https://github.com/rathishc12/G2_DBMS/assets/120539398/9a5e364a-f0ab-4227-9f62-7a45ad85be39)
 
